@@ -1,9 +1,22 @@
 #include <iostream>
+<<<<<<< HEAD
 #include <vector>
 #include <string>
 using namespace std;
+=======
+#include <cmath>
+>>>>>>> master
 
-int main() {
-	cout << "Hello testing" << endl;
-	return 0;
+using namespace std;
+
+int main()
+{
+    double number, squareRoot;
+    cout << "Enter a number: ";
+    cin >> number;
+
+    // sqrt() is a library function to calculate square root
+    squareRoot = sqrt(number);
+    cout << "Square root of " << number << " = " << squareRoot;
+    return 0;
 }
