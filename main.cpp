@@ -2,8 +2,9 @@
 #include <vector>
 #include <algorithm>
 #include <string>
+using namespace std;
 
 int main() {
-	cout << "Hello testing" << endl;
+	cout << "Hello git" << endl;
 	return 0;
 }
