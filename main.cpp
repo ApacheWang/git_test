@@ -1,10 +1,16 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
-#include <string>
+#include <cmath>
+
 using namespace std;
 
-int main() {
-	cout << "Hello git" << endl;
-	return 0;
+int main()
+{
+    double number, squareRoot;
+    cout << "Enter a number: ";
+    cin >> number;
+
+    // sqrt() is a library function to calculate square root
+    squareRoot = sqrt(number);
+    cout << "Square root of " << number << " = " << squareRoot;
+    return 0;
 }
